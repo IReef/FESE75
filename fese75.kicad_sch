@@ -4051,7 +4051,7 @@
     (uuid 494cbc16-922a-405e-a1c7-f8125ccdd187)
     (property "Reference" "J2" (id 0) (at 96.52 11.2735 0))
     (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 96.52 14.0486 0))
-    (property "Footprint" "" (id 2) (at 100.33 33.02 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085" (id 2) (at 100.33 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 100.33 33.02 0)
@@ -5598,7 +5598,7 @@
     (uuid 9d355f05-5de2-41b8-8918-f0e30beea5c9)
     (property "Reference" "F14" (id 0) (at 123.19 12.4165 90))
     (property "Value" "500mA" (id 1) (at 123.19 15.1916 90))
-    (property "Footprint" "" (id 2) (at 118.11 19.05 0)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (id 2) (at 118.11 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 17.78 0)
@@ -7349,7 +7349,7 @@
       (reference "F13") (unit 1) (value "MX-NoLED") (footprint "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u")
     )
     (path "/9d355f05-5de2-41b8-8918-f0e30beea5c9"
-      (reference "F14") (unit 1) (value "500mA") (footprint "")
+      (reference "F14") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f0797637-5ddb-4d87-aca5-a167dac34763"
       (reference "FN1") (unit 1) (value "MX-NoLED") (footprint "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u")
@@ -7367,7 +7367,7 @@
       (reference "J1") (unit 1) (value "MX-NoLED") (footprint "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u")
     )
     (path "/494cbc16-922a-405e-a1c7-f8125ccdd187"
-      (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
+      (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085")
     )
     (path "/fc996259-2a6c-4dd6-92ec-81d86507281b"
       (reference "K1") (unit 1) (value "MX-NoLED") (footprint "Switch_Keyboard_Kailh:SW_Hotswap_Kailh_1.00u")
